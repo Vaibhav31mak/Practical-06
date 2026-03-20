@@ -1,0 +1,4 @@
+C:\Users\vaibhav.makwana\source\repos\LMS\Practical-06\Events\obj\Debug\net10.0\Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaibhav.makwana\source\repos\LMS\Practical-06\Events\obj\Debug\net10.0\Events.AssemblyInfoInputs.cache
+C:\Users\vaibhav.makwana\source\repos\LMS\Practical-06\Events\obj\Debug\net10.0\Events.AssemblyInfo.cs
+C:\Users\vaibhav.makwana\source\repos\LMS\Practical-06\Events\obj\Debug\net10.0\Events.csproj.CoreCompileInputs.cache
