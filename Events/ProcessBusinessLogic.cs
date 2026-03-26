@@ -2,19 +2,21 @@
 
 internal class ProcessBusinessLogic
 {
-    public Action ProcessCompleted;
+    public Action? ProcessCompleted;
 
-    // Start Process - To invoke the onProcessCompleted() method.
-    // Return Type - void
+    /// <summary>
+    /// Starts the process.
+    /// Return Type: void
+    /// </summary>
     public void StartProcess()
     {
         Console.WriteLine("Process Started");
         OnProcessCompleted();
     }
-    // Start Process - To invoke the ProcessCompleted Action.
-    // Return Type - void
+    /// <summary>
+    /// Raises the event and invokes.
+    /// </summary>
     protected virtual void OnProcessCompleted() 
-
     {
         //if ProcessCompleted is not null then calling the delegate
         ProcessCompleted?.Invoke();
